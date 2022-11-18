@@ -1,5 +1,5 @@
 {% set name = "jekyll-avatar" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 93038ba6fc9c2427c6bbce49839874f0232345c68e4237b548780343afd07e0d
+  sha256: ea736277c2de54a21300122096700517972a722d5c68ca83f8723b4999abfd4b
 
 build:
   noarch: generic
